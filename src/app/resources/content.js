@@ -53,7 +53,7 @@ const home = {
   headline: <>Kirsti Alho</>,
   subline: (
     <>
-      <p>Composer</p>
+      <p>Composer, vocalist and educator</p>
       <p>Saarbrücken, Germany</p>
     </>
   ),
