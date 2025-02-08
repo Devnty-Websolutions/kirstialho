@@ -42,6 +42,9 @@ export const Footer = () => {
               ),
           )}
         </Flex>
+        <Flex gap="2" mobileDirection="column" horizontal="center" vertical="center">
+          <span className={styles.poweredBy}>powered by</span><SmartLink href="https://www.devnty.com"><img src="/images/devnty-logo-mini.png" width={80}/></SmartLink>
+        </Flex>
       </Flex>
       <Flex height="80" show="s"></Flex>
     </Flex>
