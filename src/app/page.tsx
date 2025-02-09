@@ -11,7 +11,7 @@ import { Posts } from "@/components/blog/Posts";
 export async function generateMetadata() {
   const title = home.title;
   const description = home.description;
-  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
+  const ogImage = `https://${baseURL}/images/avatar.jpg`;
 
   return {
     title,
@@ -50,7 +50,7 @@ export default function Home() {
             name: home.title,
             description: home.description,
             url: `https://${baseURL}`,
-            image: `${baseURL}/og?title=${encodeURIComponent(home.title)}`,
+            image: `/images/avatar.jpg`,
             publisher: {
               "@type": "Person",
               name: person.name,
