@@ -1,4 +1,4 @@
-const baseURL = "kirstialho.com";
+const baseURL = "kirstialho.vercel.app";
 
 const routes = {
   "/": true,
