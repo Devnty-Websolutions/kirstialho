@@ -26,7 +26,7 @@ export async function generateMetadata() {
       type: "website",
       images: [
         {
-          url: new URL("/images/avatar.jpg", `https://${baseURL}`).href,
+          url: "/images/avatar.jpg",
           width: 1200,
           height: 630,
           alt: `${person.firstName} ${person.lastName}`,
