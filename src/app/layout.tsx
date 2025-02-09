@@ -24,6 +24,14 @@ export async function generateMetadata() {
       siteName: `${person.firstName}.com`,
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: new URL("/images/avatar.jpg", `https://${baseURL}`).href,
+          width: 1200,
+          height: 630,
+          alt: `${person.firstName} ${person.lastName}`,
+        },
+      ],
     },
     robots: {
       index: true,
